@@ -1,0 +1,144 @@
+/* page.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f3f4f6;
+  padding: 2rem;
+  position: relative;
+}
+
+.errorBox {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border: 1px solid #ef4444;
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.uploadBtn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #3b82f6;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.uploadBtn:hover {
+  background: #2563eb;
+}
+
+.uploadText {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileName {
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.primaryBtn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.primaryBtn:hover {
+  background: #2563eb;
+}
+
+.linkBtn {
+  background: none;
+  border: none;
+  color: #6b7280;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.spinnerWrapper {
+  margin: 2rem 0;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid rgba(59, 130, 246, 0.2);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+.processingText {
+  margin-top: 0.75rem;
+  color: #374151;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.resultBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.circleBtn {
+  background: #3b82f6;
+  border: none;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
