@@ -1,4 +1,9 @@
-// e.g. app/merge/page.tsx
+// app/merge/page.tsx
 export default function MergePage() {
-  return <h2 style={{ padding: '2rem' }}>Merge PDF tool coming soon!</h2>;
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h2>Merge PDF</h2>
+      <p>Combine PDFs in the order you want. Tool coming soon!</p>
+    </div>
+  );
 }
