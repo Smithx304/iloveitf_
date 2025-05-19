@@ -1,6 +1,6 @@
 // app/layout.tsx
 import './globals.css';
-import Navbar from '../components/Navbar';
+import Navbar from 'app/components/Navbar';
 
 export const metadata = {
   title: 'iloveITF',
