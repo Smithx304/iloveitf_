@@ -1,4 +1,9 @@
-// e.g. app/merge/page.tsx
-export default function MergePage() {
-  return <h2 style={{ padding: '2rem' }}>Merge PDF tool coming soon!</h2>;
+// app/split/page.tsx
+export default function SplitPage() {
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h2>Split PDF</h2>
+      <p>Separate one page or a whole set into independent PDF files.</p>
+    </div>
+  );
 }
