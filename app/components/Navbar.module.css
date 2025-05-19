@@ -1,0 +1,89 @@
+/* components/Navbar.module.css */
+
+.nav {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-right: 2rem;
+  color: #111827;
+  text-decoration: none;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.links a {
+  color: #374151;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: #111827;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropToggle {
+  cursor: pointer;
+  color: #374151;
+  font-weight: 500;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  padding: 0.5rem 0;
+  min-width: 200px;
+  z-index: 200;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #374151;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.menu li a:hover {
+  background: #f3f4f6;
+}
+
+.separator {
+  height: 1px;
+  margin: 0.5rem 0;
+  background: #e5e7eb;
+}
